@@ -1,0 +1,25 @@
+.eventForm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .input-combo{
+        margin:20px;
+        display: flex;
+        flex-wrap: wrap;
+        input{
+            height: 30px;
+        }
+        p{
+            margin: 10px;
+        }
+        textarea{
+            width: 700px;
+            height: 100px;
+            overflow: auto
+        }
+    }
+    button{
+        height: 40px;
+        justify-self: center;
+    }
+}
