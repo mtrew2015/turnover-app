@@ -23,15 +23,15 @@ class Form extends Component {
 				<form className='eventForm'>
 					<div className='input-combo'>
 						<p>Truck Number:</p>
-						<input name='truckNumber' value={this.state.truckNumber} onChange={this.onChange} />
+						<input type="number" name='truckNumber' value={this.state.truckNumber} onChange={this.onChange} />
 					</div>
 					<div className='input-combo'>
 						<p>Driver Name:</p>
-						<input name='name' value={this.state.name} onChange={this.onChange} />
+						<input type='text' name='name' value={this.state.name} onChange={this.onChange} />
 					</div>
 					<div className='input-combo'>
 						<p>Description:</p>
-						<textarea name='description' value={this.state.description} onChange={this.onChange} />
+						<textarea type='text' name='description' value={this.state.description} onChange={this.onChange} />
 					</div>
 					<button>Add Event</button>
 				</form>
